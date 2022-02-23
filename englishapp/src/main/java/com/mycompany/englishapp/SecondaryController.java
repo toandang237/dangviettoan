@@ -11,6 +11,9 @@ public class SecondaryController {
         App.setRoot("primary");
     }
     
-    public void check(ActionEvent event) {}
+    public void check(ActionEvent event) {
+        int a = 10, b = 20;
+        int c = a + b;
+    }
 }
 
