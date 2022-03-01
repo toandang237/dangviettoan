@@ -12,7 +12,7 @@ public class SecondaryController {
     }
     
     public void check(ActionEvent event) {
-        int a = 100, b = 20;
+        int a = 100, b = 2000;
         int c = a + b;
     }
 }
