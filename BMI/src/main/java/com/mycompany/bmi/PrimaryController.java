@@ -16,7 +16,7 @@ public class PrimaryController {
         double weight = Double.parseDouble(txtWeight.getText());
         double bmi = weight / Math.pow(height, 2);
         
-        lbResult.setTextFill(Color.AQUA);
+        lbResult.setTextFill(Color.GREEN);
         if (bmi < 18.5)
             lbResult.setText("Gầy");
         else if (bmi < 25.5)
